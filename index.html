@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="images/logo.png" alt="IQOS logo" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#products-container">Home</a>
+                    </li>
+                    <li>
+                        <a href="#price-container">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact-comtaier">Suporte</a>
+                    </li>
+                    <li>
+                        <a href="#contact-comtaier" class="default-btn">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>IQOS</h1>
+                <p>New generation technology</p>
+            </div>
+            <section class="products-container" id="products-container">
+                <ul>
+                    <li>
+                        <img src="images/ilumaPNG.png" alt="iluma" class="iluma">
+                        <h3>ILUMA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque et corrupti, magnam
+                            libero necessitatibus! Ipsam similique accusantium fugiat atque voluptatum, velit, sint
+                            impedit non praesentium quia, totam voluptatibus consequuntur?</p>
+                    </li>
+                    <li>
+                        <img src="images/primePNG.png" alt="prime" class="prime">
+                        <h3>ILUMA PRIME</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque et corrupti, magnam
+                            libero necessitatibus! Ipsam similique accusantium fugiat atque voluptatum, velit, sint
+                            impedit non praesentium quia, totam voluptatibus consequuntur?</p>
+                    </li>
+                    <li>
+                        <img src="images/onePNG.png" alt="prime" class="one">
+                        <h3>ILUMA ONE</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque et corrupti, magnam
+                            libero necessitatibus! Ipsam similique accusantium fugiat atque voluptatum, velit, sint
+                            impedit non praesentium quia, totam voluptatibus consequuntur?</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="price-container" id="price-container">
+                <h2>Equipment and Prices</h2>
+                <p>Choose the equipment that best suits you</p>
+                <div class="equipment-container">
+                    <div class="equipment">
+                        <ul>
+                            <li class="price soldout">19€</li>
+                            <li class="eqp-name">lil SOLID 2.0</li>
+                            <li>3 consecutive uses</li>
+                            <li>40 min Battery</li>
+                            <li>Weight: 99g</li>
+                            <li class="eqp-btn soldout">SOLD OUT</li>
+                        </ul>
+                    </div>
+                    <div class="equipment">
+                        <ul>
+                            <li class="price">30€</li>
+                            <li class="eqp-name">Iluma One</li>
+                            <li>20 consecutive uses</li>
+                            <li>90 min Battery</li>
+                            <li>Weight: 68.5g</li>
+                            <li class="eqp-btn">See More</li>
+                        </ul>
+                    </div>
+                    <div class="equipment">
+                        <ul>
+                            <li class="price recomended">40€</li>
+                            <li class="eqp-name">Iluma</li>
+                            <li>40 consecutive uses</li>
+                            <li>130 min Battery</li>
+                            <li>Weight: 116g</li>
+                            <li class="eqp-btn recomended">See More</li>
+                            <p class="best">BEST SELLER</p>
+                        </ul>
+                    </div>
+                    <div class="equipment">
+                        <ul>
+                            <li class="price">60€</li>
+                            <li class="eqp-name">Iluma Prime</li>
+                            <li>70 consecutive uses</li>
+                            <li>190 min Battery</li>
+                            <li>Weight: 141g</li>
+                            <li class="eqp-btn">See More</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter-container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Don't Miss Out Latest Updates</p>
+                <form>
+                    <input type="text" name="email" id="email" placeholder="Insert a correct email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </section>
+            <section class="contact-comtaier" id="contact-comtaier">
+                <h2>Contact Us</h2>
+                <p>Feel free to send us a message</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input type="text" name="email" id="email" placeholder="Your email">
+                    <textarea name="message" id="message" placeholder="Describe your question or issue"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>IQOS @ 2023</p>
+        </footer>
+    </div>
+</body>
+
+</html>
