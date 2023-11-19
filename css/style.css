@@ -105,8 +105,7 @@ color: aliceblue;
 /*Products*/
 
 .products-container{
-    padding: 5rem 0;
-    
+    padding: 40px;
 }
 
 .products-container ul{
@@ -137,7 +136,7 @@ color: aliceblue;
 .one, 
 .prime{
     font-size: 20px;
-    height: 400px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
@@ -335,4 +334,167 @@ footer{
 /*small laptos*/
 @media (max-width:1100px){
     
+    .products-container{
+        width: 100%
+        
+    }
+
+.equipment-container{
+    width: 80%;
+}
+
+.equipment {
+    margin: 0 5px;
+}
+
+}
+
+/*Tablet*/
+
+@media (max-width: 900px){
+
+    .main-banner h1{
+        color: #ffffff;
+        text-shadow: #000 1px 2px 1px;
+        font-weight: bold;
+        padding-top: 100px;
+        padding-left: 19px;
+        text-align: left;
+        font-size: 40px;
+    }    
+    
+    .main-banner p{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin-top: 370px;
+        text-align: center;
+        font-size: 20px;
+        font-family: "Arial";
+        text-transform: uppercase;
+    }
+        html,
+        body{
+            overflow-x: hidden;
+        }
+    
+        .navbar-items li{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    
+        .products-container ul{
+    flex-direction: column;
+        }
+    
+        .products-container{
+         width: 100%;
+         height: auto;
+        
+        }
+    
+        .products-container .img{
+            flex-direction: column;
+            width: 10%;
+            padding: 0 2rem;
+            
+           }
+    
+    
+        .equipment-container{
+            flex-direction: column;
+            width: 100%;
+           
+        }
+        
+        .equipment{
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    
+        .contact-comtaier{
+            padding: 3rem 2rem;
+        }
+    
+        .contact-comtaier input,
+        .contact-comtaier textarea{
+            width: 100%;
+            margin: 10px 0;
+        }
+
+}
+
+/*Mobile*/
+
+@media (max-width: 576px){
+
+
+.main-banner h1{
+    color: #ffffff;
+    text-shadow: #000 1px 2px 1px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 19px;
+    text-align: left;
+    font-size: 40px;
+}    
+
+.main-banner p{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 370px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+    html,
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .products-container ul{
+flex-direction: column;
+    }
+
+    .products-container{
+     width: 100%;
+     height: auto;
+    
+    }
+
+    .products-container .img{
+        flex-direction: column;
+        width: 10%;
+        padding: 0 2rem;
+        
+       }
+
+
+    .equipment-container{
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    
+    .equipment{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact-comtaier{
+        padding: 3rem 2rem;
+    }
+
+    .contact-comtaier input,
+    .contact-comtaier textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
 }
